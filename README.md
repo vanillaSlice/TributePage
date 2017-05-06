@@ -7,5 +7,7 @@ This page is intended to be functionally similar to [this example page](https://
 
 A codepen of my page can be found [here](https://codepen.io/vanillaSlice/full/zwdyLb/).
 
-## Screenshot
-TODO
+## Screenshots
+![screenshot-1](./screenshot-1.png)
+
+![screenshot-2](./screenshot-2.png)
