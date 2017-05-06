@@ -3,7 +3,8 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-family: 'Indie Flower', cursive;
 }
 
@@ -12,12 +13,7 @@ h2 {
 }
 
 .header {
-  padding-bottom: 0px;
-}
-
-.header,
-.bio {
-  margin-top: 20px;
+  padding-top: 40px;
 }
 
 .bio {
@@ -27,8 +23,6 @@ h2 {
 .novels {
   background-color: #ffc09f;
 }
-
-/* novels styles here */
 
 .quotes {
   background-color: #ffee93;
