@@ -1,0 +1,48 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'Indie Flower', cursive;
+}
+
+.section {
+  padding: 20px 0;
+}
+
+.header {
+  padding-bottom: 0px;
+}
+
+.header,
+.bio {
+  margin-top: 20px;
+}
+
+.bio {
+  background-color: #79addc;
+}
+
+.novels {
+  background-color: #ffc09f;
+}
+
+/* novels styles here */
+
+.quotes {
+  background-color: #ffee93;
+}
+
+blockquote,
+.blockquote-reverse {
+  border-style: none;
+}
+
+hr {
+  border-top-color: #777;
+}
+
+.links {
+  background-color: #adf7b6;
+}
