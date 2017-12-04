@@ -1,4 +1,4 @@
-# TributePage
+# Tribute Page
 Basic Front End Development Project for FreeCodeCamp. 
 
 I chose to create my tribute page on the writer Kurt Vonnegut. 

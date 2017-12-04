@@ -1,19 +1,43 @@
 body {
+  -webkit-animation: fade-in 1s linear;
+          animation: fade-in 1s linear;
   font-family: 'Open Sans', sans-serif;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 h1,
 h2,
-h3 {
+h3,
+h4,
+h5,
+h6 {
   font-family: 'Indie Flower', cursive;
 }
 
-.section {
-  padding: 20px 0;
+header {
+  padding: 40px 0 20px;
 }
 
-.header {
-  padding-top: 40px;
+section,
+body > footer {
+  padding: 20px 0;
 }
 
 .bio {
@@ -28,6 +52,10 @@ h3 {
   background-color: #ffee93;
 }
 
+.links {
+  background-color: #adf7b6;
+}
+
 blockquote,
 .blockquote-reverse {
   border-style: none;
@@ -35,8 +63,4 @@ blockquote,
 
 hr {
   border-top-color: #777;
-}
-
-.links {
-  background-color: #adf7b6;
 }

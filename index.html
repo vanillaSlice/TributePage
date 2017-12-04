@@ -6,84 +6,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kurt Vonnegut Tribute Page</title>
+  <meta name="description" content="Basic Front End Development Project for FreeCodeCamp">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower%7COpen+Sans:400,400i">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class="container-fluid animated bounceInDown">
+<body class="container-fluid">
 
   <!-- header -->
-  <div class="row section header">
+  <header class="row">
     <div class="container text-center">
-      <img class="img-responsive center-block" src="./images/kurt-vonnegut.jpg" alt="American Writer Kurt Vonnegut">
-      <h1>Kurt Vonnegut <small>1922-2007</small></h1>
+      <img class="img-responsive center-block" src="./images/kurt-vonnegut.jpg" alt="American Writer Kurt Vonnegut" title="Kurt Vonnegut">
+      <h1>Kurt Vonnegut
+        <small>1922-2007</small>
+      </h1>
     </div>
-  </div>
+  </header>
 
   <!-- bio -->
-  <div class="row section bio">
+  <section class="row bio">
     <div class="container text-center col-md-8 col-md-offset-2">
       <h2>Bio</h2>
       <p>Kurt Vonnegut was an American writer born in Indianapolis in 1922. He studied at the universities of Chicago and Tennessee
-        and later began to write short stories for magazines. His first novel, <em>Player Piano</em>, was published in <em>1951</em>        and he was the author of many other novels, among them: <em>The Sirens of Titan (1959)</em>, <em>Mother Night (1961)</em>,
-        <em>Cat&apos;s Cradle (1963)</em>, <em>God Bless You, Mr Rosewater (1964)</em>, <em>Welcome to the Monkey House (1968)</em>;
-        a collection of short stories, <em>Breakfast of Champions (1973)</em>, <em>Slapstick, or Lonesome No More (1976)</em>,
-        <em>Jailbird (1979)</em>, <em>Deadeye Dick (1982)</em>, <em>Galapogos (1985)</em>, <em>Bluebeard (1988)</em> and
-        <em>Hocus
-        Pocus (1990)</em>. During the Second World War he was held prisoner in Germany and was present at the bombing
-        of Dresden, an experience which provided the setting for his most famous work, <em>Slaughterhouse Five (1969)</em>.
-        He has published a volume autobiography entitled <em>Palm Sunday (1981)</em> and a collection of essays and speeches,
-        <em>Fates Worse Than Death
-        (1991)</em>.</p>
+        and later began to write short stories for magazines. His first novel, <em>Player Piano</em>, was published in
+        <em>1951</em> and he was the author of many other novels, among them: <em>The Sirens of Titan (1959)</em>,
+        <em>Mother Night (1961)</em>, <em>Cat&apos;s Cradle (1963)</em>, <em>God Bless You, Mr Rosewater (1964)</em>,
+        <em>Welcome to the Monkey House (1968)</em>; a collection of short stories, <em>Breakfast of Champions (1973)</em>,
+        <em>Slapstick, or Lonesome No More (1976)</em>, <em>Jailbird (1979)</em>, <em>Deadeye Dick (1982)</em>,
+        <em>Galapogos (1985)</em>, <em>Bluebeard (1988)</em> and <em>Hocus Pocus (1990)</em>. During the Second World War 
+        he was held prisoner in Germany and was present at the bombing of Dresden, an experience which provided the setting for
+        his most famous work, <em>Slaughterhouse Five (1969)</em>. He has published a volume autobiography entitled
+        <em>Palm Sunday (1981)</em> and a collection of essays and speeches, <em>Fates Worse Than Death (1991)</em>.
+      </p>
       <p>Kurt Vonnegut died in April 2007.</p>
     </div>
-  </div>
+  </section>
 
   <!-- novels -->
-  <div class="row section novels">
+  <section class="row novels">
     <div class="container text-center col-md-8 col-md-offset-2">
       <h2>Novels</h2>
       <div class="row clearfix">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Player_Piano_(novel)" target="_blank">
-                <img src="images/player-piano.jpg" alt="Player Piano">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Player_Piano_(novel)">
+              <img class="img-responsive" src="images/player-piano.jpg" alt="Player Piano">
+            </a>
             <div class="caption">
               <h3>Player Piano</h3>
               <p>Published in 1952</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/The_Sirens_of_Titan" target="_blank">
-                <img src="images/the-sirens-of-titan.jpg" alt="The Sirens of Titan">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/The_Sirens_of_Titan">
+              <img src="images/the-sirens-of-titan.jpg" alt="The Sirens of Titan">
+            </a>
             <div class="caption">
               <h3>The Sirens of Titan</h3>
               <p>Published in 1959</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Mother_Night" target="_blank">
-                <img src="images/mother-night.jpg" alt="Mother Night">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Mother_Night">
+              <img src="images/mother-night.jpg" alt="Mother Night">
+            </a>
             <div class="caption">
               <h3>Mother Night</h3>
               <p>Published in 1961</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Cat%27s_Cradle" target="_blank">
-                <img src="images/cats-cradle.jpg" alt="Cat's Cradle">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Cat%27s_Cradle">
+              <img src="images/cats-cradle.jpg" alt="Cat's Cradle">
+            </a>
             <div class="caption">
               <h3>Cat&apos;s Cradle</h3>
               <p>Published in 1963</p>
@@ -92,44 +100,44 @@
         </div>
       </div>
       <div class="row clearfix">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/God_Bless_You,_Mr._Rosewater" target="_blank">
-                <img src="images/god-bless-you-mr-rosewater.jpg" alt="God Bless You, Mr. Rosewater">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/God_Bless_You,_Mr._Rosewater">
+              <img src="images/god-bless-you-mr-rosewater.jpg" alt="God Bless You, Mr. Rosewater">
+            </a>
             <div class="caption">
               <h3>God Bless You, Mr. Rosewater</h3>
               <p>Published in 1965</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Slaughterhouse-Five" target="_blank">
-                <img src="images/slaughterhouse-five.jpg" alt="Slaughterhouse Five">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Slaughterhouse-Five">
+              <img src="images/slaughterhouse-five.jpg" alt="Slaughterhouse Five">
+            </a>
             <div class="caption">
               <h3>Slaughterhouse Five</h3>
               <p>Published in 1969</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Breakfast_of_Champions" target="_blank">
-                <img src="images/breakfast-of-champions.jpg" alt="Breakfast of Champions">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Breakfast_of_Champions">
+              <img src="images/breakfast-of-champions.jpg" alt="Breakfast of Champions">
+            </a>
             <div class="caption">
               <h3>Breakfast of Champions</h3>
               <p>Published in 1973</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Slapstick_(novel)" target="_blank">
-                <img src="images/slapstick.jpg" alt="Slapstick">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Slapstick_(novel)">
+              <img src="images/slapstick.jpg" alt="Slapstick">
+            </a>
             <div class="caption">
               <h3>Slapstick</h3>
               <p>Published in 1976</p>
@@ -138,44 +146,44 @@
         </div>
       </div>
       <div class="row clearfix">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Jailbird" target="_blank">
-                <img src="images/jailbird.jpg" alt="Jailbird">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Jailbird">
+              <img src="images/jailbird.jpg" alt="Jailbird">
+            </a>
             <div class="caption">
               <h3>Jailbird</h3>
               <p>Published in 1979</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Deadeye_Dick" target="_blank">
-                <img src="images/deadeye-dick.jpg" alt="Deadeye Dick">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Deadeye_Dick">
+              <img src="images/deadeye-dick.jpg" alt="Deadeye Dick">
+            </a>
             <div class="caption">
               <h3>Deadeye Dick</h3>
               <p>Published in 1982</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Gal%C3%A1pagos_(novel)" target="_blank">
-                <img src="images/galapogos.jpg" alt="Galapogos">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Gal%C3%A1pagos_(novel)">
+              <img src="images/galapogos.jpg" alt="Galapogos">
+            </a>
             <div class="caption">
               <h3>Galapogos</h3>
               <p>Published in 1985</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Bluebeard_(Vonnegut_novel)" target="_blank">
-                <img src="images/bluebeard.jpg" alt="Bluebeard">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Bluebeard_(Vonnegut_novel)">
+              <img src="images/bluebeard.jpg" alt="Bluebeard">
+            </a>
             <div class="caption">
               <h3>Bluebeard</h3>
               <p>Published in 1987</p>
@@ -184,22 +192,22 @@
         </div>
       </div>
       <div class="row clearfix">
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Hocus_Pocus_(novel)" target="_blank">
-                <img src="images/hocus-pocus.jpg" alt="Hocus Pocus">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Hocus_Pocus_(novel)">
+              <img src="images/hocus-pocus.jpg" alt="Hocus Pocus">
+            </a>
             <div class="caption">
               <h3>Hocus Pocus</h3>
               <p>Published in 1990</p>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3">
+        <div class="col-xs-6 col-md-3">
           <div class="thumbnail">
-            <a href="https://en.wikipedia.org/wiki/Timequake" target="_blank">
-                <img src="images/timequake.jpg" alt="Timequake">
-              </a>
+            <a href="https://en.wikipedia.org/wiki/Timequake">
+              <img src="images/timequake.jpg" alt="Timequake">
+            </a>
             <div class="caption">
               <h3>Timequake</h3>
               <p>Published in 1997</p>
@@ -208,52 +216,60 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- quotes -->
-  <div class="row section quotes">
+  <section class="row quotes">
     <div class="container col-md-8 col-md-offset-2">
       <h2 class="text-center">Quotes</h2>
       <blockquote>
         <p>&ldquo;We are what we pretend to be, so we must be careful about what we pretend to be.&rdquo;</p>
         <footer>Kurt Vonnegut in <cite title="Mother Night">Mother Night</cite></footer>
       </blockquote>
-      <hr />
+      <hr>
       <blockquote class="blockquote-reverse">
         <p>&ldquo;Everything was beautiful and nothing hurt.&rdquo;</p>
         <footer>Kurt Vonnegut in <cite title="Slaughterhouse Five">Slaughterhouse Five</cite></footer>
       </blockquote>
-      <hr />
+      <hr>
       <blockquote>
         <p>&ldquo;Live by the harmless untruths that make you brave and kind and healthy and happy.&rdquo;</p>
         <footer>Kurt Vonnegut in <cite title="Cat's Cradle">Cat&apos;s Cradle</cite></footer>
       </blockquote>
-      <hr />
+      <hr>
       <blockquote class="blockquote-reverse">
         <p>&ldquo;Goodbye blue Monday.&rdquo;</p>
         <footer>Kurt Vonnegut in <cite title="Breakfast of Champions">Breakfast of Champions</cite></footer>
       </blockquote>
-      <hr />
+      <hr>
       <blockquote>
         <p>&ldquo;There is no reason why good cannot triumph as often as evil. The triumph of anything is a matter of organization.
           If there are such things as angels, I hope that they are organized along the lines of the Mafia.&rdquo;</p>
         <footer>Kurt Vonnegut in <cite title="The Sirens of Titan">The Sirens of Titan</cite></footer>
       </blockquote>
     </div>
-  </div>
+  </section>
 
   <!-- links -->
-  <div class="row section links">
+  <footer class="row links">
     <div class="container text-center">
       <h2>Links</h2>
       <ul class="list-unstyled">
-        <li><a href="https://www.vonnegut.com/" target="_blank">Official Website</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut" target="_blank">Wikipedia</a></li>
-        <li><a href="https://www.amazon.co.uk/Kurt-Vonnegut/e/B000APYE16/ref=sr_ntt_srch_lnk_1?qid=1494080325&sr=8-1" target="_blank">Amazon</a></li>
-        <li><a href="http://www.goodreads.com/author/show/2778055.Kurt_Vonnegut" target="_blank">goodreads</a></li>
+        <li>
+          <a href="https://www.vonnegut.com/">Official Website</a>
+        </li>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Kurt_Vonnegut">Wikipedia</a>
+        </li>
+        <li>
+          <a href="https://www.amazon.co.uk/Kurt-Vonnegut/e/B000APYE16/ref=sr_ntt_srch_lnk_1?qid=1494080325&amp;sr=8-1">Amazon</a>
+        </li>
+        <li>
+          <a href="http://www.goodreads.com/author/show/2778055.Kurt_Vonnegut">goodreads</a>
+        </li>
       </ul>
     </div>
-  </div>
+  </footer>
 
 </body>
 
