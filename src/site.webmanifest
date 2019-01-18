@@ -1,5 +1,6 @@
 {
   "name": "Tribute Page",
+  "short_name": "Tribute Page",
   "icons": [{
       "src": "./android-chrome-192x192.png",
       "sizes": "192x192",
