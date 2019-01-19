@@ -1,7 +1,27 @@
 {
-  "name": "tribute-page",
+  "name": "kurt-vonnegut-tribute-page",
   "version": "1.0.0",
-  "description": "Kurt Vonnegut Tribute Page",
+  "description": "Basic Front End Development Project for FreeCodeCamp",
+  "keywords": [
+    "kurt vonnegut",
+    "tribue page",
+    "freecodecamp"
+  ],
+  "homepage": "https://github.com/vanillaSlice/TributePage#readme",
+  "bugs": {
+    "url": "https://github.com/vanillaSlice/TributePage/issues",
+    "email": "mikelowedev@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mike Lowe",
+    "email": "mikelowedev@gmail.com",
+    "url": "https://www.mikelowe.xyz/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vanillaSlice/TributePage.git"
+  },
   "scripts": {
     "test": "run-s test:*",
     "test:lint": "run-s test:lint:*",
@@ -9,25 +29,12 @@
     "start": "parcel src/index.html -d build",
     "build": "parcel build src/index.html -d build --public-url ./"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vanillaSlice/TributePage.git"
-  },
-  "keywords": [
-    "kurt vonnegut",
-    "tribue page"
-  ],
-  "author": "Mike Lowe",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/vanillaSlice/TributePage/issues"
-  },
-  "homepage": "https://github.com/vanillaSlice/TributePage#readme",
   "devDependencies": {
     "autoprefixer": "^9.4.5",
     "npm-run-all": "^4.1.5",
     "parcel-bundler": "^1.11.0",
-    "stylelint": "^9.9.0",
+    "stylelint": "^9.10.1",
     "stylelint-config-recommended": "^2.1.0"
-  }
+  },
+  "private": true
 }
