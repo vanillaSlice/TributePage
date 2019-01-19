@@ -1,10 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
 
-body {
-  animation: fade-in 1s linear;
-  font-family: 'Open Sans', sans-serif;
-}
-
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -12,6 +7,11 @@ body {
   to {
     opacity: 1;
   }
+}
+
+body {
+  animation: fade-in 1s linear;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -22,6 +22,10 @@ h5,
 h6 {
   font-family: 'Indie Flower', cursive;
   hyphens: auto;
+}
+
+hr {
+  border-top-color: #777;
 }
 
 .bio {
@@ -38,8 +42,4 @@ h6 {
 
 .links {
   background-color: #adf7b6;
-}
-
-hr {
-  border-top-color: #777;
 }
