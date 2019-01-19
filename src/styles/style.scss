@@ -1,3 +1,5 @@
+@import '~bootstrap/scss/bootstrap';
+
 body {
   animation: fade-in 1s linear;
   font-family: 'Open Sans', sans-serif;
@@ -19,15 +21,7 @@ h4,
 h5,
 h6 {
   font-family: 'Indie Flower', cursive;
-}
-
-header {
-  padding: 40px 0 20px;
-}
-
-section,
-body > footer {
-  padding: 20px 0;
+  hyphens: auto;
 }
 
 .bio {
@@ -44,11 +38,6 @@ body > footer {
 
 .links {
   background-color: #adf7b6;
-}
-
-blockquote,
-.blockquote-reverse {
-  border-style: none;
 }
 
 hr {
