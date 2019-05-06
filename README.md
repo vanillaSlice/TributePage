@@ -7,7 +7,7 @@
 *Basic Front End Development Project for FreeCodeCamp.*
 
 A tribute page on the writer Kurt Vonnegut. A deployed version can be viewed
-[here](https://vanillaSlice.github.io/TributePage).
+[here](https://tributepage.mikelowe.xyz/).
 
 ## Screenshot
 
