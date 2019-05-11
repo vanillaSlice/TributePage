@@ -42,3 +42,7 @@ hr {
 .links {
   background-color: #adf7b6;
 }
+
+.footer__separator::after {
+  content: '|';
+}
