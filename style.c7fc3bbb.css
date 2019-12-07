@@ -1,0 +1,2 @@
+@-webkit-keyframes fade-in{0%{opacity:0}to{opacity:1}}@keyframes fade-in{0%{opacity:0}to{opacity:1}}body{-webkit-animation:fade-in 1s linear;animation:fade-in 1s linear;font-family:Open Sans,sans-serif}h1,h2,h3,h4,h5,h6{font-family:Indie Flower,cursive;-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}hr{border-top-color:#777}.bio{background-color:#79addc}.novels{background-color:#ffc09f}.quotes{background-color:#ffee93}.links{background-color:#adf7b6}.footer__separator:after{content:"|"}
+/*# sourceMappingURL=style.c7fc3bbb.css.map */
